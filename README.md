@@ -38,5 +38,5 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
 
 Example Circuit Diagram    |  Screenshot of Shiny Found
 :-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/10005573/147976917-bfce26ea-17a5-4122-a78c-d959c8213df3.jpg" width='200'>  |  ![](https://user-images.githubusercontent.com/10005573/147977316-f7d57570-81db-49a5-9d25-2a1503cd36e4.png)
+<img src="https://user-images.githubusercontent.com/10005573/147976917-bfce26ea-17a5-4122-a78c-d959c8213df3.jpg" width='300' height='300'>  |  <img src="https://user-images.githubusercontent.com/10005573/147977316-f7d57570-81db-49a5-9d25-2a1503cd36e4.png" width='228' height='365'>
 
