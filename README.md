@@ -3,7 +3,7 @@ I saw a similar solution years ago for automating the tedious task of hunting fo
 1/4096 encounters! Older versions were 1/8192!<br>
 So I created an OpenCV solution that runs on a Raspberry Pi that automatically soft resets until a shiny is found.<br>
 
-<h3>Shiny Resetter 1.1 for Raspberry Pi.</h3>
+<h3>Shiny Resetter 1.1 for Raspberry Pi</h3>
 
 Example Circuit Diagram    |  Screenshot of Shiny Found
 :-------------------------:|:-------------------------:
