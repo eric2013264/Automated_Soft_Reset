@@ -34,4 +34,4 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
   -  Position the Pi Camera above your device's screen where the shiny parts of the         
      encountered sprite are in frame. Being in focus is not necessary. <br>    
      
-![alt text](https://raw.githubusercontent.com/eric2013264/Automated_Soft_Reset/files/7803877/Untitled.Sketch_bb.pdf)
+![Untitled Sketch_bb](https://user-images.githubusercontent.com/10005573/147976917-bfce26ea-17a5-4122-a78c-d959c8213df3.jpg)
