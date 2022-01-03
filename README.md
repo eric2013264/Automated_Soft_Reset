@@ -28,8 +28,8 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
   Search "USER INPUT VALUE" for areas you will need to customize/calibrate for it to work.<br>   
   -  Find a picture or screenshot of the shiny desired and use a color tool to get          
      the HSV value. Use it to find a lower and upper range to detect.                        
-         eg. [43, 55, 85], [90, 195, 195] note opencv scales hsv values to [0-180, 0-255, 0-255]
+         eg. [43, 55, 85], [90, 195, 195] note opencv scales hsv values to [0-180, 0-255, 0-255] <br>
   -  Attach and calibrate your servo motors so the pressed_pulsewidth is able to press      
-     the button on your device. While the neutral_pulsewidth doesn't interfere with it.      
+     the button on your device. While the neutral_pulsewidth doesn't interfere with it. <br>     
   -  Position the Pi Camera above your device's screen where the shiny parts of the         
-     encountered sprite are in frame. Being in focus is not necessary.     
+     encountered sprite are in frame. Being in focus is not necessary. <br>    
