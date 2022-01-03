@@ -33,3 +33,5 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
      the button on your device. While the neutral_pulsewidth doesn't interfere with it. <br>     
   -  Position the Pi Camera above your device's screen where the shiny parts of the         
      encountered sprite are in frame. Being in focus is not necessary. <br>    
+     
+[Untitled Sketch_bb.pdf](https://github.com/eric2013264/Automated_Soft_Reset/files/7803877/Untitled.Sketch_bb.pdf)
