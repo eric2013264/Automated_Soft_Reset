@@ -34,11 +34,8 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
   -  Position the Pi Camera above your device's screen where the shiny parts of the         
      encountered sprite are in frame. Being in focus is not necessary. <br>    
 
-<h4>Example Circuit Diagram:</h4>     
-<img src="https://user-images.githubusercontent.com/10005573/147976917-bfce26ea-17a5-4122-a78c-d959c8213df3.jpg" width="200" height="200" />
-<img src="https://user-images.githubusercontent.com/10005573/147977316-f7d57570-81db-49a5-9d25-2a1503cd36e4.png" width="228" height="365" />
-    
-Solarized dark             |  Solarized Ocean
+<h4>Images:</h4>     
+Example Circuit Diagram    |  Screenshot of Shiny Found
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/10005573/147976917-bfce26ea-17a5-4122-a78c-d959c8213df3.jpg)  |  ![](https://user-images.githubusercontent.com/10005573/147977316-f7d57570-81db-49a5-9d25-2a1503cd36e4.png)
 
