@@ -15,7 +15,7 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
      using attached motor servos or stop and notify you.                                     
   -  Automatically keeps count.                                                              
   -  Email notifications when a shiny is found, with a screenshot and the count.             
-  -  Displays updated cumulative binomial probability.    <br>                                   
+  -  Displays updated cumulative binomial probability. <br>                                   
                                                                                             
 <h4>Requirements:</h4>                                                                               
   -  OpenCV open computer vision.                                                            
@@ -25,7 +25,7 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
   -  Must be static (click A to start battle) encounters, not wild spawns or eggs.           
                                                                                             
 <h4>Usage:</h4>                                                                                      
-  Search "USER INPUT VALUE" for areas you will need to customize/calibrate for it to work.   
+  Search "USER INPUT VALUE" for areas you will need to customize/calibrate for it to work.<br>   
   -  Find a picture or screenshot of the shiny desired and use a color tool to get          
      the HSV value. Use it to find a lower and upper range to detect.                        
          eg. [43, 55, 85], [90, 195, 195] note opencv scales hsv values to [0-180, 0-255, 0-255]
