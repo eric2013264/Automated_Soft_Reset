@@ -4,12 +4,12 @@ I saw a similar solution years ago for automating the tedious task of hunting fo
 So I created an OpenCV solution that runs on a Raspberry Pi that automatically soft resets until a shiny is found.<br>
 
 
-<h4>Shiny Resetter 1.1 for Raspberry Pi.</h4>                                                       
+<h3>Shiny Resetter 1.1 for Raspberry Pi.</h3>                                                       
                                                                                             
-Automatic Shiny Pokemon Soft Resetter for Nintendo DS, Switch.                              
+<h4>Automatic Shiny Pokemon Soft Resetter for Nintendo DS, Switch. </h4>                           
   -  Uses the Pi Camera to detect shiny Pokemon's colors. <br>                                  
                                                                                             
-Features:                                                                                   
+<h4>Features:</h4>                                                                                   
   -  Determines if a shiny is encountered by checking if the specified color                
      is detected. This allows it to autonomously decide to continue resetting               
      using attached motor servos or stop and notify you.                                     
@@ -17,14 +17,14 @@ Features:
   -  Email notifications when a shiny is found, with a screenshot and the count.             
   -  Displays updated cumulative binomial probability.    <br>                                   
                                                                                             
-Requirements:                                                                               
+<h4>Requirements:</h4>                                                                               
   -  OpenCV open computer vision.                                                            
   -  pipgiod servo control daemon.                                                           
                                                                                             
-Limitations:                                                                                
+<h4>Limitations:</h4>                                                                                
   -  Must be static (click A to start battle) encounters, not wild spawns or eggs.           
                                                                                             
-Usage:                                                                                      
+<h4>Usage:</h4>                                                                                      
   Search "USER INPUT VALUE" for areas you will need to customize/calibrate for it to work.   
   -  Find a picture or screenshot of the shiny desired and use a color tool to get          
      the HSV value. Use it to find a lower and upper range to detect.                        
