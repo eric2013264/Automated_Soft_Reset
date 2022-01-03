@@ -36,5 +36,5 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
 
 <h4>Example Circuit Diagram:</h4>     
 <img src="https://user-images.githubusercontent.com/10005573/147976917-bfce26ea-17a5-4122-a78c-d959c8213df3.jpg" width="200" height="200" />
-<img src="https://user-images.githubusercontent.com/10005573/147977316-f7d57570-81db-49a5-9d25-2a1503cd36e4.png" width="512" height="320" />
+<img src="https://user-images.githubusercontent.com/10005573/147977316-f7d57570-81db-49a5-9d25-2a1503cd36e4.png" width="320" height="512" />
 
