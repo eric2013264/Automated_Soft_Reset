@@ -1,6 +1,8 @@
-# Automated_Soft_Reset
+# Automated Soft Reset
 I saw a similar solution years ago for automating the tedious task of hunting for shiny Pokemon. 
+
 1/4096 encounters! Older versions were 1/8192!
+
 So I created an OpenCV solution that runs on a Raspberry Pi that automatically soft resets until a shiny is found.
 
 
