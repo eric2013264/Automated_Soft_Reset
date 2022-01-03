@@ -5,7 +5,9 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
 
 <h3>Shiny Resetter 1.1 for Raspberry Pi</h3>
 <h4>Automatic Shiny Pokemon Soft Resetter for Nintendo DS, Switch. </h4>  
-- Uses the Pi's peripherals (Pi Camera, servo motors) to detect and reset.
+<ul>
+  <li>Uses the Pi's peripherals (Pi Camera, servo motors) to detect and reset.</li>
+</ul>
 
 
 
