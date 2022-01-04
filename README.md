@@ -3,7 +3,6 @@ I saw a similar solution years ago on YouTube that showed someone using an ardui
 If you're here, you're probably are aware that the probability to encounter a shiny randomly is 1/4096! Where older versions had an even less forgiving rate of 1/8192!<br>
 So I created an OpenCV solution that runs on a Raspberry Pi that automatically soft resets until a shiny is found.<br>
 
-<h3>Automated Soft Reset for Raspberry Pi</h3>
 <h4>Automatic Shiny Pokemon Soft Resetter for Nintendo DS, Switch. </h4>  
 <ul>
   <li>Uses the Pi's peripherals (Pi Camera, servo motors) to detect and reset.</li>
