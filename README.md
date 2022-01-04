@@ -1,4 +1,4 @@
-#   Automated Soft Reset Shiny Soft Reset Program for Raspberry Pi.  
+#   Automated Soft Reset: A Shiny Soft Reset Program for Raspberry Pi.  
 I saw a similar solution years ago on YouTube that showed someone using an arduino to automate the tedious task of hunting for shiny Pokemon.<br>
 If you're here, you're probably are aware that the probability to encounter a shiny randomly is 1/4096! Where older versions had an even less forgiving rate of 1/8192!<br>
 So I created an OpenCV solution that runs on a Raspberry Pi that automatically soft resets until a shiny is found.<br>                                                       
