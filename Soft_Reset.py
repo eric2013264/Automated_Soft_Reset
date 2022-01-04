@@ -1,5 +1,5 @@
 #
-#   Shiny Resetter 1.1 for Raspberry Pi.                                                        
+#   Automated Soft Reset Shiny Soft Reset Program for Raspberry Pi.                                                        
 #                                                                                               
 #   Automatic Shiny Pokemon Soft Resetter for Nintendo DS, Switch.                              
 #     -  Uses the Pi Camera to detect shiny Pokemon's colors.                                   
