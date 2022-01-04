@@ -42,5 +42,5 @@ Example Circuit Diagram    |  Screenshot of Shiny Found
     <li>Attach and calibrate your servo motors so the pressed_pulsewidth is able to press
         the button on your device. While the neutral_pulsewidth doesn't interfere with it. </li>  
     <li>Position the Pi Camera above your device's screen where the shiny parts of the
-        encountered sprite are in frame. Being in focus is not necessary. </li>
+        encountered sprite are in frame. Having the feed be in focus is not necessary. </li>
 
