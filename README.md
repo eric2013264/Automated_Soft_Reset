@@ -1,13 +1,11 @@
 #   Automated Soft Reset: A Shiny Soft Reset Program for Raspberry Pi.  
-I saw a similar solution years ago on YouTube that showed someone using an arduino to automate the tedious task of hunting for shiny Pokemon.<br>
-If you're here, you're probably are aware that the probability to encounter a shiny randomly is 1/4096! Where older versions had an even less forgiving rate of 1/8192!<br>
-So I created an OpenCV solution that runs on a Raspberry Pi that automatically soft resets until a shiny is found.<br>                                                       
+<h4> Python program that runs on most Raspberry Pi computers, works on Nintendo DS and Nintendo Switch </h4>
+Shiny Pokemon are rare and time consuming to find. Prior to gen 5, the probability of randomly encountering a shiny Pokemon was 1/8192 or 0.01220703125% (The rate for Gen 5 and onwards is 1/4096). <br>
 
-<h4>Automatic Shiny Pokemon Soft Resetter for Nintendo DS, Switch. </h4>  
-<ul>
-  <li>Uses the Pi's peripherals (Pi Camera, servo motors) to detect and reset.</li>
-</ul>
+Math time: Using pre gen 5 odds of 1/8192, to reach a cumulative probability of 50%, you'd need to reset 5678 times. Given an average reset time of 50 seconds, that's >78 hours of non-stop resetting. <br>
 
+So I used a Raspberry Pi and created an OpenCV solution that automatically soft resets until a shiny is found. 
+It uses a standard Pi Camera, and 2-3 micro servos. 
 
 
 Example Circuit Diagram    |  Screenshot of Shiny Found in HGSS    | Screenshot of Shiny Found in BDSP
@@ -39,9 +37,10 @@ Example Circuit Diagram    |  Screenshot of Shiny Found in HGSS    | Screenshot 
   <ul>
     <li>Find a picture or screenshot of the shiny desired and use a color tool to get
         the HSV value. Use it to find a lower and upper range to detect.
-          eg. [43, 55, 85], [90, 195, 195] note opencv scales hsv values to [0-180, 0-255, 0-255] </li>
+          eg. [43, 55, 85], [90, 195, 195] note opencv scales hsv values to [0-180, 0-255, 0-255]. </li>
     <li>Attach and calibrate your servo motors so the pressed_pulsewidth is able to press
-        the button on your device. While the neutral_pulsewidth doesn't interfere with it. </li>  
-    <li>Position the Pi Camera above your device's screen where the shiny parts of the
-        encountered sprite are in frame. Having the feed be in focus is not necessary. </li>
+        the button on your device. While the neutral_pulsewidth doesn't interfere with it. 
+      You may 3D print a holder or mount them using mounting tape. </li>  
+    <li>Position the Pi Camera above your device's screen where the sprite's shiny portions
+        are in frame. Having the feed be in focus is not necessary. </li>
 
