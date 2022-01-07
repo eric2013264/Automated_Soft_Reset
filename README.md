@@ -10,11 +10,12 @@ So I created an OpenCV solution that runs on a Raspberry Pi that automatically s
 
 
 
-Example Circuit Diagram    |  Screenshot of Shiny Found
-:-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/10005573/147976917-bfce26ea-17a5-4122-a78c-d959c8213df3.jpg" width='300' height='300'>  |  <img src="https://user-images.githubusercontent.com/10005573/147977316-f7d57570-81db-49a5-9d25-2a1503cd36e4.png" width='228' height='365'>
-                                                                                                             
-                                                                                            
+Example Circuit Diagram    |  Screenshot of Shiny Found in HGSS    | Screenshot of Shiny Found in BDSP
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/10005573/147976917-bfce26ea-17a5-4122-a78c-d959c8213df3.jpg" alt="Example Circuit Diagram" width='300' height='300'>  |  <img src="https://user-images.githubusercontent.com/10005573/148609658-8228224d-41ef-449e-a2bc-73d8da9e29ff.png" alt="Screenshot of Shiny Found in HGSS" width='228' height='365'>  |  <img src="https://user-images.githubusercontent.com/10005573/148609662-f953214b-d322-4e09-b80f-e0396c851982.png" alt="Screenshot of Shiny Found in BDSP" width='228' height='365'>
+                                                                 
+
+                                                                  
 <h4>Features:</h4>                                                                                   
 <ul>
   <li>Determines if a shiny is encountered by checking if the specified color                
