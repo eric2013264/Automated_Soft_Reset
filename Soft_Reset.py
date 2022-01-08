@@ -41,13 +41,18 @@ import picamera.array
 import argparse
 import pigpio
 import smtplib
+# For displaying temperature (optional)
 from gpiozero import CPUTemperature
+# For email notifications (optional)
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEMultipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email import encoders
+# For multi threading
 import threading
+# For email credentials
+import keyring
 
 # Email notifications
 def send_email(): 
@@ -72,10 +77,10 @@ def send_email():
     encoders.encode_base64(mime)
     msg.attach(mime)
     
-  server = smtplib.SMTP("smtp.outlook.com", 587)               # USER INPUT VALUE
+  server = smtplib.SMTP("smtp.outlook.com", 587)                                                      # USER INPUT VALUE
   server.starttls()
-  server.login("YOUR_TO_EMAIL_USERNAME", "YOUR_TO_EMAIL_PASSWORD")                              # USER INPUT VALUE
-  server.sendmail("YOUR_FROM_EMAIL@outlook.com", "YOUR_TO_EMAIL@outlook.com", msg.as_string())  # USER INPUT VALUE
+  server.login("YOUR_TO_EMAIL@outlook.com", keyring.get_password("KEY", "YOUR_TO_EMAIL@outlook.com")) # USER INPUT VALUE
+  server.sendmail("YOUR_FROM_EMAIL@outlook.com", "YOUR_TO_EMAIL@outlook.com", msg.as_string())        # USER INPUT VALUE
   print("Email sent.")
   server.quit()
 
