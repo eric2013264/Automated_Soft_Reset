@@ -287,8 +287,8 @@ if __name__ == "__main__":
       wait_time = time.time()
       shiny_check_duration = 4.4    # USER INPUT
       while(1):
+        camera.capture(output, "bgr")
         try:
-          camera.capture(output, "bgr")
           frame = output.array
           output.truncate(0)
           frame = cv2.flip(frame, -1)
