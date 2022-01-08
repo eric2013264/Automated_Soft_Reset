@@ -309,13 +309,13 @@ if __name__ == "__main__":
                   frame_recorded = True
                 if time.time()-start >= shiny_check_duration: # Done checking
                   print("Not Shiny")
+                  count+=1          
                   save_count(count)
                   start_checking_flag = False
                   t = threading.Thread(target=move_servos, args=(keypress_list,))
                   t.daemon = True
                   t.start()
                   timer_started_flag = False           
-                  count+=1                
                   wait_time = time.time()
                   frame_recorded = False
                 else:
@@ -327,7 +327,6 @@ if __name__ == "__main__":
             temp_update_time = time.time()
             temperature = cpu.temperature
           # Get cumulative probability
-          n = count
           p = 4095.0/4096.0
           prob = 1-binomial(count, p)
 
