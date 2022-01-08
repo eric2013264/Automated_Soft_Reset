@@ -74,8 +74,8 @@ def send_email():
     
   server = smtplib.SMTP("smtp.outlook.com", 587)               # USER INPUT VALUE
   server.starttls()
-  server.login("USERNAME", "PASSWORD") # USER INPUT VALUE
-  server.sendmail("YOUR_FROM_EMAIL", "YOUR_TO_EMAIL", msg.as_string()) # USER INPUT VALUE
+  server.login("YOUR_TO_EMAIL_USERNAME", "YOUR_TO_EMAIL_PASSWORD")                              # USER INPUT VALUE
+  server.sendmail("YOUR_FROM_EMAIL@outlook.com", "YOUR_TO_EMAIL@outlook.com", msg.as_string())  # USER INPUT VALUE
   print("Email sent.")
   server.quit()
 
@@ -188,8 +188,6 @@ def save_count(count):
   print("Count saved.")
 
 def output_stats():
-  #global startTime
-  #global initial_count
   elapsed = (time.time() - startTime)
   print("Time elapsed: " + str(timedelta(seconds=elapsed)))
   print("Resets this session: " + str(count-initial_count))
@@ -213,9 +211,9 @@ def directoryCreation():
     
 if __name__ == "__main__":
   # Directory and count file
-  screenshot_directory_path = "/home/pi/Desktop/Lugia_Soft_Reset/Screenshots/"     # USER INPUT VALUE
-  count_file = "Lugia_count.txt"                                                   # USER INPUT VALUE
-  count_file_path = "/home/pi/Desktop/Lugia_Soft_Reset/" + count_file              # USER INPUT VALUE
+  screenshot_directory_path = "/home/pi/Desktop/Mewtwo_Soft_Reset/Screenshots/"     # USER INPUT VALUE
+  count_file = "Mewtwo_count.txt"                                                   # USER INPUT VALUE
+  count_file_path = "/home/pi/Desktop/Mewtwo_Soft_Reset/" + count_file              # USER INPUT VALUE
   # Flags
   email_sent = False
   shiny_found = False
@@ -315,9 +313,7 @@ if __name__ == "__main__":
                 else:
                   frame = image_filter(frame)
                   cv2.putText(frame, "Checking..." + str(round(shiny_check_duration - (time.time()-start),1)) + " sec", (12,460), font, 1.2, (0, 255, 0), 2, cv2.LINE_AA)
-                
 
-          
           # Get temp
           if time.time() - temp_update_time >= time_update_interval:
             temp_update_time = time.time()
