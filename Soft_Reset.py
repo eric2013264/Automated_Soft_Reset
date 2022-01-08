@@ -175,13 +175,13 @@ def image_filter(frame):
 def get_count():
   count = 0
   try:
-    f = open(count_file_path, "r")
+    f = open(count_file_path, "w")
     count = f.read()
     f.close()
   except IOError:
       print("Count file not found, creating file.")
       
-  if (count == None or count == ""): # file was empty? 
+  if (count == None or count == ""): # file didn't exist/is empty
     count = 0
  
   return int(count)
@@ -211,11 +211,15 @@ def binomial(trials, success):
 
 def directoryCreation():
   if not os.path.isdir(screenshot_directory_path):
+    print("Creating folder for reset directory" + reset_directory)
+    os.mkdir(reset_directory)
+  if not os.path.isdir(screenshot_directory_path):
     print("Creating folder for screenshots: " + screenshot_directory_path)
     os.mkdir(screenshot_directory_path)
     
 if __name__ == "__main__":
   # Directory and count file
+  reset_directory = "/home/pi/Desktop/Mewtwo_Soft_Reset"                             # USER INPUT VALUE
   screenshot_directory_path = "/home/pi/Desktop/Mewtwo_Soft_Reset/Screenshots/"     # USER INPUT VALUE
   count_file = "Mewtwo_count.txt"                                                   # USER INPUT VALUE
   count_file_path = "/home/pi/Desktop/Mewtwo_Soft_Reset/" + count_file              # USER INPUT VALUE
