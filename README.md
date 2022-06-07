@@ -78,44 +78,25 @@ python shiny_reset_1.3.py
 		"email_SMTP_server_port": 587
 	}
 
-    
-**"pokemon_name"** Which Pokemon you're resetting for, this will be used in the folder names. Each new Pokemon will create a new folder that will hold the screenshot folder and count file.
-
-**"color_detection_lower_range"** The lower HSV (0-180, 0-255, 0-255) range of the shiny color you are looking for. 
-
-**"color_detection_upper_range"** The upper HSV (0-180, 0-255, 0-255) range of the shiny color you are looking for.
-
-**"shiny_check_duration"** How long the program checks for the shiny color until it resets again.
-
-**"servo1_MENU_pin"** The GPIO pin of the servo controlling the menu button.
-
-**"servo2_XA_pin"** The GPIO pin of the servo controlling the X and/or A buttons.
-
-**"servo3_UP_pin"** The GPIO pin of the servo controlling the up joystick or button.
-
-**"servo1_MENU_Pressed_Pulsewidth"** The pulse width sent to the menu servo to press the menu button.
-
-**"servo1_MENU_Neutral_Pulsewidth"** The pulse width sent to the menu servo to stay clear of the menu button.
-
-**"servo2_XA_A_Pressed_Pulsewidth"** The pulse width sent to the menu servo to press the A button.
-
-**"servo2_XA_Neutral_Pulsewidth"** The pulse width sent to the menu servo to stay clear of the XA buttons.
-
-**"servo2_XA_X_Pressed_Pulsewidth"** The pulse width sent to the menu servo to press the X button.
-
-**"servo3_UP_Pressed_Pulsewidth"** The pulse width sent to the menu servo to press the Up joystick or button.
-
-**"servo3_UP_Neutral_Pulsewidth"** The pulse width sent to the menu servo to press the Up joystick or button.
-
-**"keypress_list"** A list of timings for the reset sequence. The first element of each sublist is the action where 1 is A, 2 is Menu, 3 is X, and 4 is Up, and 5 is wait without action, the second element is how long to sleep/wait until the next step. Eg. [[2, 2.0], [3, 1.0]] is Menu button, 2 second wait and then X button and 1 second wait.
-
-**"email_from"** The email account username that email notifications are sent from.
-
-**"email_to"** The email account username that email notifications are sent to.
-
-**"email_from_password"** The email account password that email notifications are sent from.
-
-**"email_SMTP_server"** The email account SMTP server that notifications are sent from.
-
-**"email_SMTP_server_port"** The email account SMTP server port that notifications are sent from.
-
+| Config  | Description |
+| ------------- | ------------- |
+| pokemon_name | Which Pokemon you're resetting for, this will be used in the folder names. Each new Pokemon will create a new folder that will hold the screenshot folder and count file. |
+| color_detection_lower_range | The lower HSV (0-180, 0-255, 0-255) range of the shiny color you are looking for. |
+| color_detection_upper_range | The upper HSV (0-180, 0-255, 0-255) range of the shiny color you are looking for. |
+| shiny_check_duration | How long the program checks for the shiny color until it resets again. |
+| servo1_MENU_pin | The GPIO pin of the servo controlling the menu button. |
+| servo2_XA_pin | The GPIO pin of the servo controlling the X and/or A buttons. |
+| servo3_UP_pin | The GPIO pin of the servo controlling the up joystick or button. |
+| servo1_MENU_Pressed_Pulsewidth | The pulse width sent to the menu servo to press the menu button. |
+| servo1_MENU_Neutral_Pulsewidth | The pulse width sent to the menu servo to stay clear of the menu button. |
+| servo2_XA_A_Pressed_Pulsewidth | The pulse width sent to the menu servo to press the A button. |
+| servo2_XA_Neutral_Pulsewidth | The pulse width sent to the menu servo to stay clear of the XA buttons. |
+| servo2_XA_X_Pressed_Pulsewidth | The pulse width sent to the menu servo to press the X button. |
+| servo3_UP_Pressed_Pulsewidth | The pulse width sent to the menu servo to press the Up joystick or button. |
+| servo3_UP_Neutral_Pulsewidth | The pulse width sent to the menu servo to press the Up joystick or button. |
+| keypress_list | A list of timings for the reset sequence. The first element of each sublist is the action where 1 is A, 2 is Menu, 3 is X, and 4 is Up, and 5 is wait without action, the second element is how long to sleep/wait until the next step. Eg. [[2, 2.0], [3, 1.0]] is Menu button, 2 second wait and then X button and 1 second wait. |
+| email_from | The email account username that email notifications are sent from. |
+| email_to | The email account username that email notifications are sent to. |
+| email_from_password | The email account password that email notifications are sent from. |
+| email_SMTP_server | The email account SMTP server that notifications are sent from. |
+| email_SMTP_server_port | The email account SMTP server port that notifications are sent from. |
